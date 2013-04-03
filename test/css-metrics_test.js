@@ -19,7 +19,7 @@ describe('CSSStat', function () {
     it("returns the number of rules", function () {
       expect(stats.rules).to.be(37);
     });
- 
+
     it("returns the total selectors", function () {
       expect(stats.totalSelectors).to.be(42);
     });

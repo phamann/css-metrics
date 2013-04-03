@@ -23,9 +23,7 @@ CSSMetrics.prototype = {
 
      {
        rules: [NUMBER], (total number of rules parsed)
-       
        totalSelectors: [NUMBER], (total number of selectors parsed)
-
        averageSelectors: [NUMBER] (the mean number of selectors per rule)
      }
   */
@@ -60,7 +58,7 @@ CSSMetrics.prototype = {
            "\nTotal rules: " + stats.rules +
            "\nTotal selectors: " + stats.totalSelectors +
            "\nAverage selectors per rule: " + stats.averageSelectors);
-  }  
+  }
 
 };
 
